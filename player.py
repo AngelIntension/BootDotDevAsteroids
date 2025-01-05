@@ -2,8 +2,6 @@ import pygame
 from circleshape import *
 from constants import *
 
-WHITE = (255, 255, 255)
-
 class Player(CircleShape):
     def __init__(self, x, y):
         super().__init__(x, y, PLAYER_RADIUS)
